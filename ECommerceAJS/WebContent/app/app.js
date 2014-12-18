@@ -1,6 +1,6 @@
 define([ 'angular', 'angularRoute', 'app/utils/appConstants',
 		'app/controllers/dashBoardController', 'app/utils/appModule',
-		'app/controllers/headerController' ], function(angular, angularRoute,
+		'app/controllers/headerController', 'app/directives/catelog/product' ], function(angular, angularRoute,
 		appConstants, dashBoardController, app) {
 
 	app.config([ '$routeProvider', function($routeProvider) {
