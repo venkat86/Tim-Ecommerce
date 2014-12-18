@@ -1,0 +1,3 @@
+Uri: http://the8guild.com/themes/html/bushido/v1.1/js/libs/modernizr.custom.js
+File Name: C:\PravinFreeLanceWS\Websites\the8guild.com\themes\html\bushido\v1.1\js\libs\modernizr.js
+Content Type: application/x-javascript

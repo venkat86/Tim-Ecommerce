@@ -1,0 +1,48 @@
+<div ng-controller="DashBoardController as dashBoard">
+
+	<div ng-include="'app/views/header.html'"></div>
+
+	<!--Page content  start-->
+	<div class="page-content">
+
+		<!-- breadcrumbs  -->
+		<div ng-include="'app/views/breadcrumbs.html'"></div>
+
+
+		<!--Catalog Grid-->
+		<section class="catalog-grid">
+			<div class="container">
+				<h2 class="with-sorting">Filters left 3 columns</h2>
+				<div class="sorting">
+					<a href="#">Sort by name</a> <a href="#">Sort by price</a>
+				</div>
+				<div class="subnav">
+					<a href="#">iPhone cases</a> <a href="#">iPad cases</a>
+				</div>
+				<div class="row">
+
+					<!-- Filters sections -->
+					<div ng-include="'app/views/filters.html'"></div>
+
+					<!-- Tile Section -->
+					<div ng-include="'app/views/tiles.html'"></div>
+
+				</div>
+			</div>
+		</section>
+
+		<!--  carousel -->
+		<div ng-include="'app/views/carousel.html'"></div>
+
+		<!-- sticky buttons -->
+		<div ng-include="'app/views/stickyButtons.html'"></div>
+
+		<!-- subscrptions -->
+		<div ng-include="'app/views/subscriptions.html'"></div>
+
+		<!-- footer -->
+		<div ng-include="'app/views/footer.html'"></div>
+
+	</div>
+	<!--Page Content end  -->
+</div>

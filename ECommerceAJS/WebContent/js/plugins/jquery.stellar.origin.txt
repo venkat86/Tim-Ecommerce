@@ -1,0 +1,3 @@
+Uri: http://the8guild.com/themes/html/bushido/v1.1/js/plugins/jquery.stellar.min.js
+File Name: C:\PravinFreeLanceWS\Websites\the8guild.com\themes\html\bushido\v1.1\js\plugins\jquery.stellar.js
+Content Type: application/x-javascript
